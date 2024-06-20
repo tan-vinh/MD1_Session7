@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form{
+    display: flex;
+}
+
+.trai{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.trai input{
+    height: 36px;
+    margin: 8px;
+}
+
+footer button{
+    min-width: 80px;
+    height: 36px;
+    border-radius: 4px;
+}
+
+footer{
+    text-align: right;
+}

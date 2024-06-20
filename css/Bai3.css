@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.khung{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    margin: 5px;
+    text-align: center;
+    background-color: orange;
+}
+
+.doc{
+    display: flex;
+}
+
+.doc-xuoi{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.doc-nguoc{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+.ngang-xuoi{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.ngang-nguoc{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}

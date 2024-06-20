@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.khung{
+    width: 250px;
+    height: 100vh;
+    background-color: yellowgreen;
+}

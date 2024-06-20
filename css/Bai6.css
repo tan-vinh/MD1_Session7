@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+main input{
+    width: 500px;
+    height: 36px;
+    margin-top: 15px;
+}
+
+main button{
+    background-color: blue;
+    color: white;
+    border: 0;
+}
+
+button{
+    width: 500px;
+    height: 36px;
+    margin-top: 15px;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+p{
+    text-align: center;
+    margin-top: 15px;
+}
+p a{
+    text-decoration: none;
+    color: aquamarine;
+}
