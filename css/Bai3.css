@@ -14,7 +14,9 @@
     height: 25px;
     border-radius: 3px;
     margin: 5px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: orange;
 }
 
